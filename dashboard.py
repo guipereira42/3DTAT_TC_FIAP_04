@@ -146,7 +146,7 @@ def analise():
             plt.axvspan('2007', '2009', color='#f8961e', alpha=0.5)
             plt.axvspan('2010-01-01', '2012-01-01', color='#f3722c', alpha=0.5)
             plt.axvspan('2020-01-01', '2022-03-01', color='#f94144', alpha=0.5)
-            plt.title('Série histórica do preço do barril de petróleo Brent', fontsize = 25, color = 'orange')
+            plt.title('Série histórica do preço do barril de petróleo Brent', fontsize = 20)
             plt.xlabel('Ano', fontsize = 20)
             plt.ylabel('Preço (US$)', fontsize = 20)
             st.pyplot(fig) 
