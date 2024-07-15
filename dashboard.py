@@ -136,7 +136,7 @@ def analise():
         coluna1, coluna2 = st.columns([4,1])
         
         with coluna1:
-            fig, ax = plt.subplots(figsize=(18, 9))
+            fig, ax = plt.subplots(figsize=(18, 6))
             sns.lineplot(data=df_price_hist, x='Data', y='Preço', ax=ax)
             ax.xaxis.set_major_formatter(plt.matplotlib.dates.DateFormatter('%Y')) 
             ax.tick_params(axis='x', labelsize=20)
